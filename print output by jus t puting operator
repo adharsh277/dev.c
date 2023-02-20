@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+   int a,b;
+   char ch;
+   printf("enter operator:");
+   scanf("%c",&ch);
+   printf("enter num1 & num 2:");
+   scanf("%d %d",&a,&b);
+   switch(ch){
+       case '+':printf("sum: %d",a+b);
+       break;
+       case '-':printf("sub: %d",a-b);
+       break;
+       case '*':printf("mult: %d",a*b);
+       break;
+       case '/':printf("div: %d",a/b);
+       break;
+       default:printf("enter right  opertor:");
+       
+       
+   }
+return 0;
+}
