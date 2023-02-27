@@ -8,3 +8,20 @@ int main() {
   }
     return 0;
 }
+
+// for loop another example
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+  int sum=0,c;
+  
+  for(c=0; c<=10; c++)
+  {sum =sum +c;
+  }
+  printf("%d",sum);
+
+return 0;
+}
